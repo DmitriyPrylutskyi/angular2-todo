@@ -1,0 +1,8 @@
+<div class="container">
+    <h1> <span class="glyphicon glyphicon glyphicon-ok"></span> {{ title }} </h1>
+    <div class="form-inline">
+        <input type="text" name="title" class="form-control" id="itemToDo" placeholder="Input to do" (keyup.enter)="addToDo(titleInput.value); titleInput.value =''" #titleInput>
+        <button type="button" class="btn btn-success" (click)="addToDo(titleInput.value); titleInput.value =''">Add</button>
+    </div>
+    <todo-list [todos]="todos"></todo-list>
+</div>

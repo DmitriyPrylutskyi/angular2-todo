@@ -1,0 +1,27 @@
+body {
+  padding: 32px;
+  margin: 32px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h1, .form-inline {
+  text-align: center;
+}
+
+.items {
+  margin: 20px auto 0 auto;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+label {
+  width: 180px;
+  text-align: left;
+}
