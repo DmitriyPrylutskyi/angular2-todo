@@ -19,6 +19,8 @@ export class AppComponent {
     }
 
     addToDo (title: string){
-           this.todos.push(new Todo(title));
+        if (title) {
+            this.todos.push(new Todo(title));
+        }
     }
 }
