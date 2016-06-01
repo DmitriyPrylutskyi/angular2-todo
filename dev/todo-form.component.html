@@ -1,0 +1,4 @@
+<div class="form-inline">
+    <input type="text" name="title" class="form-control" id="itemToDo" placeholder="Input todo" (keyup.enter)="add(titleInput.value); titleInput.value =''" #titleInput>
+    <button type="button" class="btn btn-success" (click)="add(titleInput.value); titleInput.value =''">Add</button>
+</div>
