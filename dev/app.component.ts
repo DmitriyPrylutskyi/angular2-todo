@@ -5,7 +5,7 @@ import { Todo } from './todo';
 
 @Component({
     selector: 'todo-app',
-    templateUrl: './dev/app.component.html',
+    templateUrl: '../templates/app.component.html',
     styleUrls: ['./src/css/app.component.css'],
     directives: [TodoFormComponent, TodoListComponent]
 })

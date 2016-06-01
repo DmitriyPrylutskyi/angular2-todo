@@ -4,7 +4,7 @@ import { Todo } from './todo';
 
 @Component({
     selector: 'todo-form',
-    templateUrl: './dev/todo-form.component.html',
+    templateUrl: '../templates/todo-form.component.html',
     styleUrls: ['./src/css/todo-form.component.css']
 })
 

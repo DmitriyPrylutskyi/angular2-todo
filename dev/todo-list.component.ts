@@ -4,7 +4,7 @@ import { Todo } from './todo';
 
 @Component({
     selector: 'todo-list',
-    templateUrl: './dev/todo-list.component.html',
+    templateUrl: '../templates/todo-list.component.html',
     styleUrls: ['./src/css/todo-list.component.css'],
     directives: [TodoItemComponent]
 })
